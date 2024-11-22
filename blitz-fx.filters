@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\core\string_id.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\d3d11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\dxgi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\d3d11_wrapper\d3d11_device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\d3d11_wrapper\d3d11_device_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\d3d11_wrapper\dxgi_device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\DDSTextureLoader11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\WICTextureLoader11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\d3d_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\frustum_volume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\pipeline_state_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\render_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\rendering_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\rendering_interceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\resource_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\sampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\effects\post_processing_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\effects\renderer_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\effects\shadow_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\hook\hook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\shader_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendering\effects\water_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\external\imgui\imgui_hotkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\core\string_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\tuple_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\d3d11_wrapper\d3d11_device.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\d3d11_wrapper\d3d11_device_context.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\d3d11_wrapper\dxgi_device.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\DDSTextureLoader11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\detours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\DirectXTex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\WICTextureLoader11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imgui_curve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\cbuffer_structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\constant_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\d3d_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\frustum_volume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\pipeline_state_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\red_shader_ids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\render_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\rendering_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\rendering_interceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\resource_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\sampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\shader_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\effects\post_processing_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\effects\renderer_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\effects\shadow_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\aixlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\core\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\hook\hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\shader_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendering\effects\water_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\external\imgui\imgui_hotkey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\original_shaders\DofBlur.hlsl" />
+    <None Include="resources\original_shaders\FogPS.hlsl" />
+    <None Include="resources\original_shaders\GrassPS.hlsl" />
+    <None Include="resources\original_shaders\SkyPS.hlsl" />
+    <None Include="resources\original_shaders\TonemapPS.hlsl" />
+    <None Include="source\external\DirectXTex.inl">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\detours.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="resources\shaders\BlitPS.hlsl" />
+    <FxCompile Include="resources\shaders\Noise.hlsli" />
+    <FxCompile Include="resources\original_shaders\CloudDomePS.hlsl" />
+    <FxCompile Include="resources\original_shaders\CloudDomeStormPS.hlsl" />
+    <FxCompile Include="resources\original_shaders\CloudDomeStormVS.hlsl" />
+    <FxCompile Include="resources\original_shaders\CloudDomeVS.hlsl" />
+    <FxCompile Include="resources\original_shaders\CloudSpritePS.hlsl" />
+    <FxCompile Include="resources\original_shaders\CloudSpriteVS.hlsl" />
+    <FxCompile Include="resources\original_shaders\LightingCS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\FinalColorCorrection0PS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\FinalColorCorrection1PS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\FinalColorCorrection2PS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\FinalColorCorrection3PS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\TonemapPS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\PostProcessingCommon.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\WindowGlassPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\WaterPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\WindowGlassLodFadePS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\SmokeSprite1PS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\SmokeSprite0PS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\HairPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\PuddlePS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\LanternGlassPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\HorseTailPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\HorseTailFarLodPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\HairTransparencyPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\CullPointLightPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\FogVolumeLightingCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\FogVolumeShadowCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\ShadowPS.hlsl" />
+    <FxCompile Include="resources\shaders\CustomData.hlsli" />
+    <FxCompile Include="resources\shaders\GameData.hlsli" />
+    <FxCompile Include="resources\shaders\BlitVS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\forward\ForwardCommon.hlsli" />
+    <FxCompile Include="resources\shaders\Common.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\FrustumVolumeCommon.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\ParticipatingMediaCommon.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\FogCommon.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\ShadowCommon.hlsli" />
+    <FxCompile Include="resources\shaders\post_processing\anti_aliasing\TemporalFilterPS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\anti_aliasing\TemporalResolvePS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\anti_aliasing\FxaaPS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\anti_aliasing\VelocityPS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\anti_aliasing\DownsampleVelocityPS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\bloom\UpsampleCS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\bloom\BloomCommon.hlsli" />
+    <FxCompile Include="resources\shaders\post_processing\bloom\DownsampleCS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\bloom\DownsampleAntiFlickerCS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\bloom\Downsample.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\DownsampleDepthCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\RaymarchCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\RaymarchReconstructCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\CompositeCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\TemporalFilterCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\SunPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\AtmosphereCommon.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\GenerateCloudMapCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\CloudsCommon.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\GenerateCloudDetailVolumeCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\GenerateCloudTurbulenceCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\FogVolumeDensityCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\UpdateBeerShadowMapCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\ReflectionProbeShadowPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\AtmosphereTransmittanceLutCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\AtmosphereSkyViewLutCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\AtmosphereAerialPerspectiveLutCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\DownsampleCloudDetailCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\FilterBeerShadowMapCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\FogVolumeIntegrateCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\ReflectionProbeFogAmbientPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\RaymarchReflectionParaboloidCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\SkyPSBase.hlsli" />
+    <FxCompile Include="resources\shaders\volumetrics\SkyPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\SkyReflectionPS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\AtmosphereMultiScatterCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\IrradianceProbePS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\SkyAverageCS.hlsl" />
+    <FxCompile Include="resources\shaders\ScreenSpaceShadowCS.hlsl" />
+    <FxCompile Include="resources\shaders\FilterScreenSpaceShadowsCS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\MotionBlurMaskCS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\bloom\BloomCombineCS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\MotionBlurCS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\WaterReflectionFallback0PS.hlsl" />
+    <FxCompile Include="resources\shaders\volumetrics\WaterReflectionFallback1PS.hlsl" />
+    <FxCompile Include="resources\shaders\post_processing\ACES.hlsli" />
+    <FxCompile Include="resources\shaders\post_processing\Tonemap.hlsli" />
+    <FxCompile Include="resources\shaders_v2\BlitVS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\BlitPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\bloom\BloomCombineCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\bloom\DownsampleAntiFlickerCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\bloom\DownsampleCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\bloom\UpsampleCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrection0PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrection1PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrection2PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrection3PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\MotionBlurCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\MotionBlurMaskCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\FogPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\FogCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\Common.hlsli" />
+    <FxCompile Include="resources\shaders_v2\CustomData.hlsli" />
+    <FxCompile Include="resources\shaders_v2\GameData.hlsli" />
+    <FxCompile Include="resources\shaders_v2\Noise.hlsli" />
+    <FxCompile Include="resources\shaders_v2\post_processing\ACES.hlsli" />
+    <FxCompile Include="resources\shaders_v2\post_processing\bloom\BloomCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\post_processing\bloom\Downsample.hlsli" />
+    <FxCompile Include="resources\shaders_v2\post_processing\PostProcessingCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\shadows\ShadowPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\TonemapCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\post_processing\Tonemap0PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\Tonemap1PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\HairPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\HairTransparencyPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrection4PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrection5PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\GBuffer.hlsli" />
+    <FxCompile Include="resources\shaders_v2\shadows\CascadeShadowCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\StorePreviousSceneDepthCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\SkinHiResShadowPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrectionBob0PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\SkinPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\SunPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\BlitCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\SunVS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\ShadowCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\SunBobPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrection6PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrectionBob1PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrectionBob2PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrectionBob3PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\FinalColorCorrectionBob4PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\ScatteringCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\CompositeVelocityCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\ContactShadowsSpatialFilterCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\ContactShadowsCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\ShadowsTemporalFilterCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\shadows\ContactShadowsPackDataCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\ArmorMetalAttachmentsPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\ArmorMetal0PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\ArmorMetal1PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\ArmorMetal2PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\ArmorMetal3PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\ChainmailPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\TerrainSurface2PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\TerrainSurface0PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\TerrainSurface1PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\SwordMetalPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\ScabbardMetalPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\WindowPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\hairworks\HairWorksPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\hairworks\HairworksPostResolvePS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\HairGBuffer0PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\UnderwaterFogPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterAmbientCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterDS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterFFTInitCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterSSRCompositePS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\OceanControlCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\PreSSRDownsamplePS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\PreSSRDownsampleDepthPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterSSRTracePS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\TAAResolveCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\TAACommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\water\UnderwaterReflectionFallbackCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\LightingCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\SharpenPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\StoreLuma0CS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\StoreLuma1CS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\InverseTonemapCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\VegetationBranchVS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\TreeSpriteVS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\Foliage0VS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\Foliage1VS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\Foliage2VS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\GrassVS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\GrassPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\Foliage0PS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\speed_tree\VegetationBranchPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\PbrDetailPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\g_buffer\vs\StaticMesh0VS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\FireSparkPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\anti_aliasing\TAATemporalFilterCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterDepthCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\WaterCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\RainDropsPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\RainDropsBobPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\SkyPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\CatPotionPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\WaterDepthVolumeCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\FrustumVolumeCommon.hlsli" />
+    <FxCompile Include="resources\shaders_v2\water\RaymarchUnderwaterFogCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\DownsampleDepthCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\UpsampleUnderwaterFogCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\water\UnderwaterFogBlurCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\aurora\AuroraRaymarchCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\aurora\AuroraTemporalFilterCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\aurora\AuroraShapeCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\aurora\AuroraDetailCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\GameplayDofBlurPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\GameplayDofMaskPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\BokehGameplayDofBlurCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\BokehGameplayDofSetupPS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\BokehGameplayDofCompositePS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\BokehGameplayDofCocCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\BokehGameplayDofDownsampleCS.hlsl" />
+    <FxCompile Include="resources\shaders_v2\post_processing\depth_of_field\BokehGameplayDofFillCS.hlsl" />
+  </ItemGroup>
+</Project>
