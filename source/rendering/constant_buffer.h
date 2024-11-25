@@ -32,7 +32,7 @@ template <typename T>
 void ConstantBuffer<T>::Create(bool enable_cpu_write)
 {
 	D3D11_BUFFER_DESC buffer_desc;
-	buffer_desc.ByteWidth = sizeof T;
+	buffer_desc.ByteWidth = sizeof(T);
 	buffer_desc.BindFlags = D3D11_BIND_CONSTANT_BUFFER;
 	if (enable_cpu_write)
 	{
@@ -150,7 +150,7 @@ void ConstantBuffer<T>::UploadBuffer()
 {
 	D3D11_MAPPED_SUBRESOURCE mapped_data;
 	GetD3DContext()->Map(_buffer.Get(), 0, D3D11_MAP_WRITE_DISCARD, 0, &mapped_data);
-	memcpy_s(mapped_data.pData, sizeof T, &_data, sizeof T);
+	memcpy_s(mapped_data.pData, sizeof(T), &_data, sizeof(T));
 	GetD3DContext()->Unmap(_buffer.Get(), 0);
 }
 template <typename T>
