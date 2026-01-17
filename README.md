@@ -1,5 +1,7 @@
 # BlitzFX
 
+![alt text](https://staticdelivery.nexusmods.com/mods/952/images/6447/6447-1663710601-155152138.jpeg)
+
 A Direct3D 11 graphics effect injector for The Witcher 3.
 The binaries are available on [Nexus Mods](https://www.nexusmods.com/witcher3/mods/6447)
 
